@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Twitter",
+    "slug": "Twitter",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/graphql.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.twitterwithgraphql"
+    },
+    "android": {
+      "package": "com.yourcompany.twitterwithgraphql"
+    }
+  }
+}
